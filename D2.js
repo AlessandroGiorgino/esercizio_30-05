@@ -81,7 +81,7 @@ if (totalShoppingCart <= 50) {
 */
 // su quello di prima fare il 20% e vedere se si arriva al carrello
 
-let totalShoppingCart2 = (Math.floor(Math.random() * 70) / 20) * 100;
+let totalShoppingCart2 = (Math.floor(Math.random() * 70) * 20) / 100;
 if (totalShoppingCart2 <= 50) {
   let prezzoConSpedizione = totalShoppingCart2 + 10;
   console.log(
